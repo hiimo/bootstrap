@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>bootstrap too</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row text-end">
+      <p>
+        <span class='icon fas fa-envelope'></span> hiimonrep@gmail.com
+        <span class='icon fas fa-phone'></span> +372 555555555
+        <span class='icon fas fa-book'></span>
+        <span class='icon fas fa-crow'></span>
+        <button style="border: none;" class='icon fas fa-search' id="search-icon" onclick="toggleSearchBox()"></button>
+      </p>
+    </div>
+
+    <div id="search-box" class="d-none">
+      <input type="text" class="form-control" placeholder="Search...">
+    </div>
+
+
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <h2>narep</h2>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li><a href="kontroltoo1.html" class="nav-link px-3 link-secondary">avaleht</a></li>
+            <li><a href="tooted.html" class="nav-link px-3 link-secondary">tooted</a></li>
+            <li><a href="teenused.html" class="nav-link px-3 link-secondary">teenused</a></li>
+            <li><a href="kontakt.html" class="btn btn-primary me-2">kontakt</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+  <div class="row featurette">
+    <div class="col-md-5 order-md-1">
+      <img src="https://metshein.com/kordamine/bs1%20man.jpg" class="card-img-top" alt="">
+    </div>
+    <div class="col-md-5 order-md-2">
+      <h2 class="display-4">tõestan, et oskan bootstrapi</h2>
+      <p class="lead">Tegelikult oskan täiega HTML, CSS ja Bootsrap API. Kahjuks olen liiga hea õpilane!</p>
+    </div>
+  </div>
+
+  <div class="p-5 pb-md-5 mx-auto text-center pricing-footer">
+    <h1 class="display-4">Teenused</h1>
+    <p class="fs-5 text-muted">otsingu luubil saan klikkida ja kuvatakse hüpikmenüüna otsingukast</p>
+  </div>
+
+  <div class="row row-cols-1 row-cols-sm-3 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card shadow-sm">
+        <div class="card-body rounded-3">
+          <i style="color:red;" class="fa-regular fa-euro-sign"></i>
+          <p>Lorem Ipsum</p>
+          <b>Business</b>
+          <p class="card-text">Lorem ipsuma,Nulla at accumsan quam. Nulla consectetur augue in magna iaculis hendrerit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. eaque at suscipit!</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+            </div>
+            <button type="button" class="btn btn-sm btn-danger">Loe siit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <div class="card-body bg-dark rounded-3">
+          <i style="color:royalblue;" class="fas fa-suitcase fa-2x"></i>
+          <p class="text-white">Lorem Ipsum</p>
+          <b class="text-white">Business</b>
+          <p class="card-text text-white">Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel est tristique libero mollis tincidunt a et ligula. Integer sollicitudin at lacus at lacinia. Proin in lectus nec libero finibus bibendum eleifend nosuscipit!</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+            </div>
+            <button type="button" class="btn btn-sm btn-primary">Loe siit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm rounded-3">
+        <div class="card-body">
+          <i style="color:green;" class="fas fa-taxi fa-2x"></i>
+          <p>Lorem Ipsum</p>
+          <b>Business</b>
+          <p class="card-text">Lorem ipsum dapibus fermentum rhoncus ut, efficitur sit amet lacus. Ut vestibulum neque mauris, ac ultrices diam dictum quis. Vivamus ligula leo, malesuada vitae tempus nont!</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+            </div>
+            <button type="button" class="btn btn-sm btn-success">Loe siit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="p-2 pb-md-4 mx-auto text-center">
+      <h1 class="display-4">Meie tehtud tööd</h1>
+      <p class="fs-5 text-muted">Seekord pääsesin selliselt</p>
+    </div>
+
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+  </script>
+  </div>
+</body>
+
+</html>
